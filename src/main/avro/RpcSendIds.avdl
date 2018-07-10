@@ -1,0 +1,4 @@
+@namespace("rpc.service")
+protocol RpcSendIds{
+  void sendIds(array<string> ids);
+}
